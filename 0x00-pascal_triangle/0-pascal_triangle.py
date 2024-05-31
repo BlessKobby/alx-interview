@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#pylint: disable = C0103
+#pylint: disable = C0103, C0304
 """ A script to determine Pascal's triangle for any number """
 
 
