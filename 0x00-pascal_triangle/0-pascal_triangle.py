@@ -22,5 +22,5 @@ def pascal_triangle(n):
             else:
                 temp_list.append(triangle[u-1][v-1] + triangle[u-1][v])
         triangle.append(temp_list)
-    # This would print(triangle)
+# This would print(triangle)
     return triangle
