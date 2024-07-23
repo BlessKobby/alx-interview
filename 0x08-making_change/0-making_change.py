@@ -31,3 +31,4 @@ def makeChange(coins, total):
         return -1
 
     return table[total]
+
