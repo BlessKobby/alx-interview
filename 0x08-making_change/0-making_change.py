@@ -15,7 +15,7 @@ def makeChange(coins, total):
     '''
     if total <= 0:
         return 0
-    
+
     table = [sys.maxsize for i in range(total + 1)]
     table[0] = 0
     denomination = len(coins)
